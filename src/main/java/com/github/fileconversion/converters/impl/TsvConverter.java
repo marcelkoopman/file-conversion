@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.converters.impl;
+package com.github.fileconversion.converters.impl;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
