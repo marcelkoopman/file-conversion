@@ -1,9 +1,9 @@
-package com.google.code.fileconversion.files.impl;
+package com.github.fileconversion.files.impl;
 
 import java.nio.charset.Charset;
 import java.nio.file.Path;
 
-import com.google.code.fileconversion.files.DelimitedFile;
+import com.github.fileconversion.files.DelimitedFile;
 
 
 public class TsvFile extends DefaultConversionFile implements DelimitedFile {

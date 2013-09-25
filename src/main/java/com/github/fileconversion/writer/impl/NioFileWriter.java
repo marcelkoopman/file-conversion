@@ -1,12 +1,12 @@
-package com.google.code.fileconversion.writer.impl;
+package com.github.fileconversion.writer.impl;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 
-import com.google.code.fileconversion.files.ConversionFile;
-import com.google.code.fileconversion.writer.FileWriter;
-import com.google.code.fileconversion.writer.FileWriterException;
+import com.github.fileconversion.files.ConversionFile;
+import com.github.fileconversion.writer.FileWriter;
+import com.github.fileconversion.writer.FileWriterException;
 
 
 public class NioFileWriter implements FileWriter {

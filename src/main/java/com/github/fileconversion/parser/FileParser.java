@@ -1,8 +1,8 @@
-package com.google.code.fileconversion.parser;
+package com.github.fileconversion.parser;
 
 import java.util.List;
 
-import com.google.code.fileconversion.files.ConversionFile;
+import com.github.fileconversion.files.ConversionFile;
 
 
 public interface FileParser {

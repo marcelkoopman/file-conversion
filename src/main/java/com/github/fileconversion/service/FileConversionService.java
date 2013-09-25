@@ -1,11 +1,11 @@
-package com.google.code.fileconversion.service;
+package com.github.fileconversion.service;
 
 import java.util.List;
 
-import com.google.code.fileconversion.files.ConversionFile;
-import com.google.code.fileconversion.files.DelimitedFile;
-import com.google.code.fileconversion.files.DelimitedFileRow;
-import com.google.code.fileconversion.settings.ConversionSettings;
+import com.github.fileconversion.files.ConversionFile;
+import com.github.fileconversion.files.DelimitedFile;
+import com.github.fileconversion.files.DelimitedFileRow;
+import com.github.fileconversion.settings.ConversionSettings;
 
 
 public interface FileConversionService {

@@ -5,16 +5,15 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.text.StrTokenizer;
 
-import com.google.code.fileconversion.files.ConversionFile;
-import com.google.code.fileconversion.files.DelimitedFileRow;
-import com.google.code.fileconversion.parser.FileParsingException;
-import com.google.code.fileconversion.parser.impl.NioFileParser;
-import com.google.code.fileconversion.service.FileConversionException;
-import com.google.code.fileconversion.settings.ConversionSettings;
+import com.github.fileconversion.files.ConversionFile;
+import com.github.fileconversion.files.DelimitedFileRow;
+import com.github.fileconversion.parser.FileParsingException;
+import com.github.fileconversion.parser.impl.NioFileParser;
+import com.github.fileconversion.service.FileConversionException;
+import com.github.fileconversion.settings.ConversionSettings;
 
 public class TsvConverter {
 

@@ -5,19 +5,18 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-
 import org.junit.Test;
 
-import com.google.code.fileconversion.files.impl.DefaultConversionFile;
-import com.google.code.fileconversion.files.impl.TsvFile;
-import com.google.code.fileconversion.service.FileConversionException;
-import com.google.code.fileconversion.service.FileConversionService;
-import com.google.code.fileconversion.service.impl.FileConversionServiceImpl;
-import com.google.code.fileconversion.settings.impl.DefaultConversionSettings;
+import com.github.fileconversion.files.impl.DefaultConversionFile;
+import com.github.fileconversion.files.impl.TsvFile;
+import com.github.fileconversion.service.FileConversionException;
+import com.github.fileconversion.service.FileConversionService;
+import com.github.fileconversion.service.impl.FileConversionServiceImpl;
+import com.github.fileconversion.settings.impl.DefaultConversionSettings;
 
 public class FileConversionServiceTest {
 
-	@Test
+	// @Test
 	public void testConvertTsv2Xml() throws FileNotFoundException, FileConversionException {
 		final Path tsvFilePath = Paths.get("src/test/resources/base_product-130920132306.csv");
 		final Path xmlFilePath = Paths.get("src/test/resources/base_product6.xml");

@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.settings;
+package com.github.fileconversion.settings;
 
 public interface ConversionSettings {
     boolean getSkipEmptyTags();

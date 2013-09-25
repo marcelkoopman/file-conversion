@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.service;
+package com.github.fileconversion.service;
 
 public class FileConversionException extends Exception {
 	private static final long serialVersionUID = 1L;

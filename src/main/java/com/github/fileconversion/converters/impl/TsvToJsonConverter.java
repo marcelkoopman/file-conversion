@@ -1,12 +1,11 @@
-package com.google.code.fileconversion.converters.impl;
+package com.github.fileconversion.converters.impl;
 
 import java.util.List;
 
-
-import com.google.code.fileconversion.converters.Converter;
-import com.google.code.fileconversion.files.DelimitedFileRow;
-import com.google.code.fileconversion.service.FileConversionException;
-import com.google.code.fileconversion.settings.ConversionSettings;
+import com.github.fileconversion.converters.Converter;
+import com.github.fileconversion.files.DelimitedFileRow;
+import com.github.fileconversion.service.FileConversionException;
+import com.github.fileconversion.settings.ConversionSettings;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 

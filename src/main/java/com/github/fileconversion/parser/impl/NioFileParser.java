@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.parser.impl;
+package com.github.fileconversion.parser.impl;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,9 +8,9 @@ import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.google.code.fileconversion.files.ConversionFile;
-import com.google.code.fileconversion.parser.FileParser;
-import com.google.code.fileconversion.parser.FileParsingException;
+import com.github.fileconversion.files.ConversionFile;
+import com.github.fileconversion.parser.FileParser;
+import com.github.fileconversion.parser.FileParsingException;
 
 
 public class NioFileParser implements FileParser {

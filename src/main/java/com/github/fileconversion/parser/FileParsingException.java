@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.parser;
+package com.github.fileconversion.parser;
 
 public class FileParsingException extends Exception {
 

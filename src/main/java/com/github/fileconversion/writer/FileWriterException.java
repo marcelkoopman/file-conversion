@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.writer;
+package com.github.fileconversion.writer;
 
 public class FileWriterException extends Exception {
 

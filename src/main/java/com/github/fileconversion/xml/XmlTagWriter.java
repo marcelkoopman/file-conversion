@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.xml;
+package com.github.fileconversion.xml;
 
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;

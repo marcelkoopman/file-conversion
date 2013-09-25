@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.files;
+package com.github.fileconversion.files;
 
 import java.nio.charset.Charset;
 import java.nio.file.Path;

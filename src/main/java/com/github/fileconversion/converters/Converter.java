@@ -1,10 +1,10 @@
-package com.google.code.fileconversion.converters;
+package com.github.fileconversion.converters;
 
 import java.util.List;
 
-import com.google.code.fileconversion.files.DelimitedFileRow;
-import com.google.code.fileconversion.service.FileConversionException;
-import com.google.code.fileconversion.settings.ConversionSettings;
+import com.github.fileconversion.files.DelimitedFileRow;
+import com.github.fileconversion.service.FileConversionException;
+import com.github.fileconversion.settings.ConversionSettings;
 
 
 public interface Converter {

@@ -1,4 +1,4 @@
-package com.google.code.fileconversion.xml;
+package com.github.fileconversion.xml;
 
 import java.io.StringReader;
 import java.io.StringWriter;
