@@ -11,7 +11,6 @@ public interface Converter {
 	/**
 	 * Converts the input to a single String, in one go. The whole file is
 	 * processed.
-	 * 
 	 * @param input
 	 * @param settings
 	 * @return

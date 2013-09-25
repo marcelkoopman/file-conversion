@@ -13,7 +13,7 @@ import javax.xml.transform.stream.StreamSource;
 
 public class XmlFormatter {
 
-	public String prettyFormat(final String xml, final int indent) throws TransformerException {
+	public final String prettyFormat(final String xml, final int indent) throws TransformerException {
 		final Source xmlInput = new StreamSource(new StringReader(xml));
 		final StringWriter stringWriter = new StringWriter();
 		final StreamResult xmlOutput = new StreamResult(stringWriter);

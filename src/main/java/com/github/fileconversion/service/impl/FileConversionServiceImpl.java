@@ -18,7 +18,7 @@ import com.github.fileconversion.writer.impl.NioFileWriter;
 public class FileConversionServiceImpl implements FileConversionService {
 
 	@Override
-	public void convertToXml(final DelimitedFile file, final ConversionFile xmlFile, final ConversionSettings settings)
+	public final void convertToXml(final DelimitedFile file, final ConversionFile xmlFile, final ConversionSettings settings)
 			throws FileConversionException {
 
 		final List<DelimitedFileRow> columns = parseFileAsRows(file, settings);
@@ -31,7 +31,7 @@ public class FileConversionServiceImpl implements FileConversionService {
 	}
 
 	@Override
-	public void convertToJson(final DelimitedFile file, final ConversionFile jsonFile, final ConversionSettings settings)
+	public final void convertToJson(final DelimitedFile file, final ConversionFile jsonFile, final ConversionSettings settings)
 			throws FileConversionException {
 		final List<DelimitedFileRow> columns = parseFileAsRows(file, settings);
 		final String convertedData = new TsvToJsonConverter().convert(columns, settings);
@@ -43,8 +43,7 @@ public class FileConversionServiceImpl implements FileConversionService {
 	}
 
 	@Override
-	public List<DelimitedFileRow> parseFileAsRows(final DelimitedFile input, final ConversionSettings setting) throws FileConversionException {
+	public final List<DelimitedFileRow> parseFileAsRows(final DelimitedFile input, final ConversionSettings setting) throws FileConversionException {
 		return new TsvConverter().convertToColumns(input, setting);
 	}
-
 }

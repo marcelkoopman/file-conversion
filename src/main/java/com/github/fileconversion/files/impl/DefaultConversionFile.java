@@ -17,12 +17,12 @@ public class DefaultConversionFile implements ConversionFile {
 	}
 
 	@Override
-	public Path getPath() {
+	public final Path getPath() {
 		return path;
 	}
 
 	@Override
-	public Charset getCharset() {
+	public final Charset getCharset() {
 		return charset;
 	}
 

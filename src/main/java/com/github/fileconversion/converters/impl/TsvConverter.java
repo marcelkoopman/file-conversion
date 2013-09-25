@@ -17,7 +17,7 @@ import com.github.fileconversion.settings.ConversionSettings;
 
 public class TsvConverter {
 
-	public List<DelimitedFileRow> convertToColumns(final ConversionFile input, final ConversionSettings settings) throws FileConversionException {
+	public final List<DelimitedFileRow> convertToColumns(final ConversionFile input, final ConversionSettings settings) throws FileConversionException {
 		final List<String> lines = getLines(input);
 		final String[] headers = getHeader(lines);
 		final List<String> records = lines.subList(1, lines.size());

@@ -12,7 +12,7 @@ import com.github.fileconversion.writer.FileWriterException;
 public class NioFileWriter implements FileWriter {
 
 	@Override
-	public void writeData(final String data, final ConversionFile file) throws FileWriterException {
+	public final void writeData(final String data, final ConversionFile file) throws FileWriterException {
 		try (BufferedWriter writer = Files.newBufferedWriter(file.getPath(), file.getCharset())) {
 			writer.write(data);
 		} catch (final IOException x) {

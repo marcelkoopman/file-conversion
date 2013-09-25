@@ -15,7 +15,7 @@ public class CsvFile extends DefaultConversionFile implements DelimitedFile {
 	}
 
 	@Override
-	public String getDelimiter() {
+	public final String getDelimiter() {
 		return COMMA;
 	}
 }

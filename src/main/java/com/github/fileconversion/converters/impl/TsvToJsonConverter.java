@@ -12,7 +12,7 @@ import com.google.gson.GsonBuilder;
 public class TsvToJsonConverter implements Converter {
 
 	@Override
-	public String convert(final List<DelimitedFileRow> columns, final ConversionSettings settings) throws FileConversionException {
+	public final String convert(final List<DelimitedFileRow> columns, final ConversionSettings settings) throws FileConversionException {
 		final Gson gson = new GsonBuilder().setPrettyPrinting().create();
 		return gson.toJson(columns);
 	}

@@ -6,7 +6,7 @@ import org.apache.commons.lang3.text.StrBuilder;
 
 public class XmlTagWriter {
 
-	public String getAsXml(final String tagName, final String content) {
+	public final String getAsXml(final String tagName, final String content) {
 		final StrBuilder strBuilder = new StrBuilder();
 		if (StringUtils.isEmpty(content)) {
 			strBuilder.append("<");

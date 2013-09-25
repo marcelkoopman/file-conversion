@@ -12,7 +12,7 @@ public class XmlTag {
 	}
 
 	@Override
-	public String toString() {
+	public final String toString() {
 		return new XmlTagWriter().getAsXml(name, value);
 	}
 }

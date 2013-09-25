@@ -16,7 +16,7 @@ import com.github.fileconversion.parser.FileParsingException;
 public class NioFileParser implements FileParser {
 
 	@Override
-	public List<String> getLines(final ConversionFile convertableFile) throws FileParsingException {
+	public final List<String> getLines(final ConversionFile convertableFile) throws FileParsingException {
 		final List<String> lines = new ArrayList<String>();
 		final Charset charset = convertableFile.getCharset();
 		final Path path = convertableFile.getPath();

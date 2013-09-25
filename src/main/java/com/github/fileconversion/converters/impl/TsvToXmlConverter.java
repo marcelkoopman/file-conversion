@@ -20,7 +20,7 @@ public class TsvToXmlConverter implements Converter {
 	private final XmlFormatter xmlFormatter = new XmlFormatter();
 
 	@Override
-	public String convert(final List<DelimitedFileRow> columns, final ConversionSettings settings) throws FileConversionException {
+	public final String convert(final List<DelimitedFileRow> columns, final ConversionSettings settings) throws FileConversionException {
 		final StrBuilder result = new StrBuilder();
 		result.append("<file>");
 		for (final DelimitedFileRow column : columns) {

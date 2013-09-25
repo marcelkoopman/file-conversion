@@ -7,19 +7,19 @@ public class DelimitedFileRow {
 	private int lineNumber;
 	private Map<String, String> record;
 
-	public int getLineNumber() {
+	public final int getLineNumber() {
 		return lineNumber;
 	}
 
-	public void setLineNumber(final int lineNumber) {
+	public final void setLineNumber(final int lineNumber) {
 		this.lineNumber = lineNumber;
 	}
 
-	public Map<String, String> getRecord() {
+	public final Map<String, String> getRecord() {
 		return record;
 	}
 
-	public void setRecord(final Map<String, String> record) {
+	public final void setRecord(final Map<String, String> record) {
 		this.record = record;
 	}
 

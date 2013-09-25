@@ -6,17 +6,18 @@ public class DefaultConversionSettings implements ConversionSettings {
 	private final boolean skipEmptyTags = true;
 
 	@Override
-	public boolean getSkipEmptyTags() {
+	public final boolean getSkipEmptyTags() {
 		return skipEmptyTags;
 	}
 
 	@Override
-	public boolean zipOutput() {
+	public final boolean zipOutput() {
 		return false;
 	}
 
 	@Override
-	public int getOutputSplitSize() {
+	public final int getOutputSplitSize() {
+		// FIXME this is a magic number
 		return 7000;
 	}
 }
