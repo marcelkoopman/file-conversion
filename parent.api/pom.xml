@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>nl.mkoopman.bundles</groupId>
+		<groupId>com.github.fileconversion.parent.parent</groupId>
 		<artifactId>parent.parent</artifactId>
 		<version>0.1</version>
 	</parent>
@@ -11,6 +11,7 @@
 	<artifactId>parent.api</artifactId>
 	<packaging>pom</packaging>
 
-	<name>parent.api</name>
+	<name>com.github.fileconversion.parent.api</name>
 	<url>http://maven.apache.org</url>
+	<groupId>com.github.fileconversion.parent.api</groupId>
 </project>
