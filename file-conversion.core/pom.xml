@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>nl.mkoopman.bundles</groupId>
-	<artifactId>csv2xml</artifactId>
+	<groupId>com.github.fileconversion.core</groupId>
+	<artifactId>fileconversion.core</artifactId>
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>csv2xml</name>
+	<name>com.github.fileconversion.core</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
