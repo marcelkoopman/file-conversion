@@ -1,4 +1,4 @@
-package com.google.code.fileconversion;
+package com.github.fileconversion;
 
 import java.io.FileNotFoundException;
 import java.nio.charset.StandardCharsets;
