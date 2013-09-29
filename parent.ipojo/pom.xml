@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>nl.mkoopman.bundles</groupId>
+		<groupId>com.github.fileconversion.parent.parent</groupId>
 		<artifactId>parent.parent</artifactId>
 		<version>0.1</version>
 	</parent>
@@ -51,4 +51,5 @@
 			</plugin>
 		</plugins>
 	</build>
+	<groupId>com.github.fileconversion.parent.ipojo</groupId>
 </project>
