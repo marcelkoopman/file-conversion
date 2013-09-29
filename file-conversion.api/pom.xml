@@ -5,13 +5,13 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>nl.mkoopman.bundles</groupId>
+		<groupId>com.github.fileconversion.parent.api</groupId>
 		<artifactId>parent.api</artifactId>
 		<version>0.1</version>
 	</parent>
 
-	<groupId>nl.mkoopman.services</groupId>
-	<artifactId>importing.api</artifactId>
+	<groupId>com.github.fileconversion.api</groupId>
+	<artifactId>fileconversion.api</artifactId>
 	<packaging>bundle</packaging>
 	
 	<properties>
@@ -19,7 +19,7 @@
 		<artifactName>importing-api</artifactName>
 	</properties>
 
-	<name>importing.api Bundle</name>
+	<name>com.github.fileconversion.api</name>
 	<description>
         importing OSGi bundle project.
     </description>
@@ -37,7 +37,7 @@
 						<Bundle-SymbolicName>${artifactName}</Bundle-SymbolicName>
 						<Bundle-Version>${bundle.version}</Bundle-Version>
 						<Export-Package>
-							nl.mkoopman.services.importing.export*;version=${project.version}
+							com.github.fileconversion.api.export*;version=${project.version}
 						</Export-Package>
 						<Import-Package>
 							*
