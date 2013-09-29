@@ -5,13 +5,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>nl.mkoopman.bundles</groupId>
+		<groupId>com.github.fileconversion.parent.ipojo</groupId>
 		<artifactId>parent.ipojo</artifactId>
 		<version>0.1</version>
 	</parent>
 
-	<groupId>nl.mkoopman.services</groupId>
-	<artifactId>importing.client</artifactId>
+	<artifactId>fileconversion.client</artifactId>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -19,17 +18,17 @@
 		<artifactName>importing-client</artifactName>
 	</properties>
 
-	<name>importing.client Bundle</name>
+	<name>com.github.fileconversion.client Bundle</name>
 	<description>
         importing.client OSGi bundle project.
     </description>
 
 	<dependencies>
 		<dependency>
-			<groupId>nl.mkoopman.services</groupId>
-			<artifactId>importing.api</artifactId>
+			<groupId>com.github.fileconversion.parent.api</groupId>
+			<artifactId>parent.api</artifactId>
 			<version>0.1</version>
-			<type>bundle</type>
+			<type>pom</type>
 		</dependency>
 	</dependencies>
 
@@ -46,7 +45,7 @@
 						<Bundle-SymbolicName>${artifactName}</Bundle-SymbolicName>
 						<Bundle-Version>${bundle.version}</Bundle-Version>
 						<Export-Package>
-							nl.mkoopman.services.importing.client*;version=${project.version}
+							com.github.fileconversion.client*;version=${project.version}
 						</Export-Package>
 						<Import-Package>
 							*
@@ -57,4 +56,5 @@
 		</plugins>
 	</build>
 
+	<groupId>com.github.fileconversion.client</groupId>
 </project>
