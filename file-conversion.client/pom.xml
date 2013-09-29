@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>nl.mkoopman.bundles</groupId>
+		<artifactId>parent.ipojo</artifactId>
+		<version>0.1</version>
+	</parent>
+
+	<groupId>nl.mkoopman.services</groupId>
+	<artifactId>importing.client</artifactId>
+	<packaging>bundle</packaging>
+
+	<properties>
+		<bundle.version>0.2</bundle.version>
+		<artifactName>importing-client</artifactName>
+	</properties>
+
+	<name>importing.client Bundle</name>
+	<description>
+        importing.client OSGi bundle project.
+    </description>
+
+	<dependencies>
+		<dependency>
+			<groupId>nl.mkoopman.services</groupId>
+			<artifactId>importing.api</artifactId>
+			<version>0.1</version>
+			<type>bundle</type>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>${artifactName}</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<version>${maven-bundle-plugin.version}</version>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Bundle-SymbolicName>${artifactName}</Bundle-SymbolicName>
+						<Bundle-Version>${bundle.version}</Bundle-Version>
+						<Export-Package>
+							nl.mkoopman.services.importing.client*;version=${project.version}
+						</Export-Package>
+						<Import-Package>
+							*
+						</Import-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+</project>
