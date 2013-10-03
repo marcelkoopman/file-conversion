@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 
 	<name>com.github.fileconversion.core</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/marcelkoopman/file-conversion</url>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

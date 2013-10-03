@@ -12,6 +12,6 @@
 	<packaging>pom</packaging>
 
 	<name>com.github.fileconversion.parent.api</name>
-	<url>http://maven.apache.org</url>
+	<url>https://github.com/marcelkoopman/file-conversion</url>
 	<groupId>com.github.fileconversion.parent.api</groupId>
 </project>

@@ -57,4 +57,5 @@
 	</build>
 
 	<groupId>com.github.fileconversion.client</groupId>
+	<url>https://github.com/marcelkoopman/file-conversion</url>
 </project>

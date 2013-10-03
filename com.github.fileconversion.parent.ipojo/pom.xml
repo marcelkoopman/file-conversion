@@ -11,8 +11,8 @@
 	<artifactId>parent.ipojo</artifactId>
 	<packaging>pom</packaging>
 
-	<name>parent.ipojo</name>
-	<url>http://maven.apache.org</url>
+	<name>com.github.fileconversion.parent.ipojo</name>
+	<url>https://github.com/marcelkoopman/file-conversion</url>
 
 	<properties>
 		<ipojo.version>1.10.1</ipojo.version>

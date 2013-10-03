@@ -48,4 +48,5 @@
 		</plugins>
 	</build>
 
+	<url>https://github.com/marcelkoopman/file-conversion</url>
 </project>
